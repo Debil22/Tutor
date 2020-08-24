@@ -1,1 +1,1 @@
-alert('U are new on site and we want to help with all u trbls')
+alert('You are new on site and we want to help with all u trbls')
