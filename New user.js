@@ -1,1 +1,1 @@
-alert('Hello new user, i am just a text, but do not skip me pls!!!')
+alert('New user, i am just a text, but do not skip me pls!!!')
