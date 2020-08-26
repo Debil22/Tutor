@@ -1,4 +1,16 @@
-function showMessage() {
-	alert('Hello everyone');
+// Задаем функцию для проверки возраста
+function checkAge() {
+ if (age > 18) {
+ 	return true;
+ } else {
+ 	return confirm('HOHO')
+ }
 }
-showMessage();
+
+let age = prompt('How old are u?', 18);
+
+if (checkAge(age)) {
+	alert('Jotaro')
+} else {
+	alert('Dio')
+}
