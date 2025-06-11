@@ -15,6 +15,13 @@ bot.on("polling_error", (error) => {
 	console.error("Polling error:", error);
 });
 
+// Команды
+bot.setMyCommands([
+	{ command: "start", description: "Начать работу" },
+	{ command: "menu", description: "Ну типа" },
+	{ command: "photo", description: "Пепе" },
+]);
+
 // Обработка команд
 bot.onText(/\/start/, (msg) => {
 	const chatId = msg.chat.id;
