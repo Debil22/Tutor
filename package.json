@@ -3,6 +3,7 @@
     "axios": "^1.9.0",
     "cheerio": "^1.1.0",
     "dotenv": "^16.5.0",
+    "mime-types": "^3.0.1",
     "node-cron": "^4.1.0",
     "node-telegram-bot-api": "^0.66.0"
   }
